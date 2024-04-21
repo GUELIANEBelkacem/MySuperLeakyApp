@@ -7,7 +7,7 @@
              mtk:LeakMonitorBehavior.Cascade="True">
 
     <NavigationPage.TitleView>
-        <Label x:Name="label" Text="Title View" />
+        <Label Text="Title View" />
     </NavigationPage.TitleView>
 
 

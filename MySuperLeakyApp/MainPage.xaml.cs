@@ -22,8 +22,8 @@ namespace MySuperLeakyApp
 
         private async void TitleView_Clicked(object sender, EventArgs e)
         {
-            AnyPageViewModel vm = new AnyPageViewModel("Title View Test", "");
-            await Navigation.PushAsync(new TitleViewTestPage(vm));
+            //AnyPageViewModel vm = new AnyPageViewModel("Title View Test", "");
+            await Navigation.PushAsync(new TitleViewTestPage());// (vm));
         }
     }
 
