@@ -27,7 +27,7 @@ namespace MySuperLeakyApp
                 //Application.Current?.MainPage?.DisplayAlert("💦Leak Detected💦",
                 //    $"❗🧟❗{collectionTarget.Name} is a zombie!", "OK");
 
-                Debug.WriteLine($"Holly mother of god, another leak!!! --> {collectionTarget.Name}");
+                //Debug.WriteLine($"Holly mother of god, another leak!!! --> {collectionTarget.Name}");
             });
 #endif
             return builder.Build();
